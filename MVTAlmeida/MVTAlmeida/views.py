@@ -2,7 +2,7 @@ from pipes import Template
 from xml.dom.expatbuilder import DOCUMENT_NODE
 from xml.dom.minidom import ReadOnlySequentialNamedNodeMap
 from django.http import HttpResponse
-from .models import familiar
+from django.db import migrations, models
 from django.template import context, Template
 
 def familiar(request):
