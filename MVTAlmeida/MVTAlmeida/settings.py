@@ -48,14 +48,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
+    ]
+
 
 ROOT_URLCONF = 'MVTAlmeida.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [MVTAlmeida/MVTAlmeida/template.html],
+        'DIRS':[] ,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
